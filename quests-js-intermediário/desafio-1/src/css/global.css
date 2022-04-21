@@ -1,0 +1,111 @@
+
+.slider {
+    display: flex;
+    align-items: center;   
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mostrar{
+    display: flex;
+}
+
+.slider.imagem-1{
+    background: url(../assets/1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.slider.imagem-2{
+    background: url(../assets/2.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+.slider.imagem-3{
+    background: url(../assets/3.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+.slider.imagem-4{
+    background: url(../assets/4.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/*Cartão de informações */
+
+.slider .cartao {
+    width: 620px;
+    height: 700px;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: 186px 1120px 194px 180px;
+}
+
+.slider .cartao .titulo-cartao{
+    margin: 65px 198px 40px 60px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.cartao .conteudo-cartao {
+    width: 500px;
+    height: 346px;
+    font-size: 25px;
+    line-height: 35px;
+    margin: 40px 60px 25px;
+}
+
+.cartao .saiba-mais {
+    padding: 25px 60px;  
+}
+
+.cartao .saiba-mais a{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.cartao .saiba-mais.cor-1 a{
+    color: #D9DD10;
+}    
+
+.cartao .saiba-mais.cor-2 a{
+    color: #10ACDD;
+}
+
+.cartao .saiba-mais.cor-3 a{
+    color:#A63A17;
+}
+
+.cartao .saiba-mais.cor-4 a{
+    color:#C50000;
+}
+
+
+/*Setas*/
+.setas .seta {
+    background: url('../assets/seta.png') center center no-repeat;
+    background-size: contain;
+    width: 56px;
+    height: 78px;
+    position: absolute;
+    overflow: hidden;
+ 
+}
+
+.seta.btn-voltar{
+    left:77px;
+    transform: rotatey(180deg);
+
+}
+
+.seta.btn-avancar {
+    right: 70px;
+}

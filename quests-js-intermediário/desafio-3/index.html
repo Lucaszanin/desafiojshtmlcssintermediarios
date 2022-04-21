@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de Validação com Ecmascript">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <title>Formulário de Validação</title>
+    <link rel="stylesheet" href="src/css/global.css">
+</head>
+
+
+<body>
+    <main class="container">
+        <div class="mensagem">
+            <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem
+                e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <div class="formulario">
+            <form action="#" method="get" id="formulario">
+                <input type="text" name="nome" id="nome" placeholder="Nome Completo*" class="input" >
+                <span>campo obrigatório</span>
+                <input type="email" name="E-mail" id="email" placeholder="Email*" class="input" >
+                <span>campo obrigatório</span>
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone*" class="input" >
+                <span>campo obrigatório</span>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" class="input textarea"></textarea>
+                <span>campo obrigatório</span>
+                <h3>*campos obrigatórios</h3>
+                <input type="submit" value="Enviar" class="input button">
+            </form>
+        </div>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>

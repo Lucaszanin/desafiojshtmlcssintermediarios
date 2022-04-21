@@ -1,0 +1,98 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo {
+    border-radius: 21px;
+    background-color: #FCFCFC;
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 44px -21px 0px -20px rgba(0, 0, 0, 0);
+    width: 655px;
+    height: 347px;
+}
+
+.conteudo {
+    display: flex;
+    margin-left: -110px;
+}
+
+.conteudo .titulo {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.conteudo .titulo h1 {
+    font-weight: 700;
+    font-size: 25px;
+}
+.conteudo-acordeon {
+    width: 70%;
+}
+
+.faq .pergunta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1;
+    padding: 15px;
+    border-bottom: 1px solid #D4D4D4;
+  
+}
+
+.pergunta .subtitulo-acordeon {
+    font-size: 17px;
+    font-weight: 500;
+    height: 20px;
+}
+
+
+
+.pergunta .seta {
+    background: url(../images/seta\ fechada.png) center center no-repeat;
+    width: 15px;
+    height: 10px;
+    overflow: hidden;
+    background-size: contain;
+    position: relative;
+    right: 15px;
+}
+
+.pergunta .seta-laranja {
+    background: url(../images/seta\ aberta.png) center center no-repeat;
+    width: 15px;
+    height: 10px;
+    overflow: hidden;
+    background-size: contain;
+    position: relative;
+    right: 15px;
+}
+
+.resposta.mostrar-resposta{
+    display: inline-block;
+}
+
+.resposta {
+    display: none;  
+    margin: 10px 80px 15px 20px;
+    transition: height 0.3s ease-in-out;
+}
+
+.resposta p{
+    font-size: 15px;
+    line-height: 18px;
+    width: 347px;
+    height: 54px;
+}
+
+.imagem {
+    margin: 33px 20px 21px;
+}
+
+.imagem img {
+    width: 278px;
+    height: 293px;
+
+}
