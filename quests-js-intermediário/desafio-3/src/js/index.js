@@ -25,7 +25,7 @@ formulario.addEventListener('submit', function (event) {
 
 inputFormulario.forEach(function(input, indice){
     
-    formulario.addEventListener('mouseout',function() {
+    formulario.addEventListener('click',function() {
         
         if(input.value==''){
             input.classList.remove('preenchido')
